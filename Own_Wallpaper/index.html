@@ -6,19 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Own WallPaper</title>
     <style>
-        html,body,#canvas{
-            height: 100%;
-            width: 100%;
+        html,
+        body,
+        #canvas,
+        #starfield {
             margin: 0;
             padding: 0;
+            height: 100%;
+            width: 100%;
             overflow: hidden;
             user-select: none;
         }
-        body{
+
+        #starfield {
+            position: absolute;
+            z-index: -10;
+        }
+
+        body {
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         }
+
         #middle {
             object-fit: cover;
             position: absolute;
@@ -26,13 +36,28 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+        #debug {
+            position: absolute;
+            top: 0;
+            left: 0;
+            word-break: break-all;
+            white-space: break-spaces;
+        }
     </style>
 </head>
 <body>
-    <div class="visualizer">
-        <img class="middle"/>
-        <canvas class="canvas"></canvas>
+    <canvas id="starfield"></canvas>
+
+    <div id="visualizer">
+        <img id="middle" />
+        <canvas id="canvas"></canvas>
     </div>
+
+    <pre id="debug"></pre>
+
+    <script src="noise.js"></script>
     <script src="main.js"></script>
+    <script src="stars.js"></script>
 </body>
 </html>
