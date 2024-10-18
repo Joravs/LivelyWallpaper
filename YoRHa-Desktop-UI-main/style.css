@@ -130,10 +130,8 @@ iframe {
   border: none;
 }
 .iframe {
+  margin-top: 50%;
   width: 100%;
-  min-height: 200px;
-  max-height: none;
   border: none;
   display: block;
-  float: inline-end;
 }
