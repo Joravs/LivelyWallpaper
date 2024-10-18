@@ -21,7 +21,7 @@ function fetchData(url) {
 }
 
 /**
- * 
+ * Launchers buttons
  */
 document.getElementById('godot').addEventListener('click', function() {
     fetchData('http://localhost:13597/run/Godot Engine');
@@ -63,7 +63,9 @@ document.getElementById('upbge').addEventListener('click', function() {
     fetchData('http://localhost:13597/run/UPBGE');
 });
 
-
+/**
+ * 
+ */
 document.getElementById('itch').addEventListener('click', function() {
     fetchData('http://localhost:13597/run/itch');
 });
