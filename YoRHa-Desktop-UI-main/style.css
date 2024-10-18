@@ -62,6 +62,7 @@ h1 small::before {
 }
 
 button {
+  margin: 0.2rem;
   cursor: pointer;
   font: inherit;
   border: none;
