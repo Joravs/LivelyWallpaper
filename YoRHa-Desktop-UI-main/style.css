@@ -47,15 +47,6 @@ h1 small::before {
   content: "–";
 }
 
-/* .pattern {
-  border-top: 2px solid #4D493E;
-} */
-
-footer .pattern {
-  margin-top: -7%;
-  scale: 1 -1;
-}
-
 .pattern-inner {
   height: 40px;
   background-size: 50px 3px, 50px 1px, 50px 1px, 50px 1px, 50px 1px, 50px 1px, 50px 1px, 50px 1px, 50px 1px;
