@@ -133,3 +133,6 @@ iframe {
   border: none;
   display: block;
 }
+footer{
+  grid-area: footer;
+}
