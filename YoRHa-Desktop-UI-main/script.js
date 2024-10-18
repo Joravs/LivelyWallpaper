@@ -66,7 +66,7 @@ document.getElementById('itch').addEventListener('click', function() {
 });
 
 document.getElementById('steam').addEventListener('click', function() {
-    fetchData('C:\Users\jordy\Documents\shortcuts\S');
+    fetchData('http://localhost:13597/run/S');
 });
 
 document.getElementById('epic').addEventListener('click', function() {
