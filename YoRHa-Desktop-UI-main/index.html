@@ -95,21 +95,13 @@
   </header>
 
   <main>
-    <div class="container">
-      <div class="content">
-        <p>
-          Tools and Engines
-        </p>
-        
-      </div>
-
-      <div class="content">
-        <p>
-          Games
-        </p>
-        <iframe src="./buttons.html" frameborder="0"></iframe>
-      </div>
-    </div>
+    <script>
+      function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+      }
+    </script>
+        <iframe src="./launchers.html"></iframe>
+        <iframe class="iframe" src="./games.html" onload="resizeIframe(this)"></iframe>
   </main>
 
   <footer>
