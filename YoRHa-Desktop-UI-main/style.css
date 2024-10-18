@@ -15,7 +15,8 @@ body {
   display: grid;
   grid-template-areas: 
     "header main"
-    ""
+    ". ."
+    "footer footer"
     ;
   min-height: 100vh;
   flex-direction: column;
@@ -29,6 +30,7 @@ body {
 
 header {
   padding: 1rem 0;
+  grid-area: header;
 }
 
 h1 {
@@ -104,6 +106,7 @@ button:hover::before, button:focus::before {
 
 main {
   flex: 1;
+  grid-area: main;
 }
 
 .content {
