@@ -118,7 +118,7 @@ main {
 }
 
 img {
-  max-width: 130px;
+  max-width: 150px;
   max-height: 150px;
   aspect-ratio: 16/9;
   box-shadow: 3px 3px 0 rgba(77, 73, 62, 0.6);
