@@ -20,6 +20,9 @@ function fetchData(url) {
         .catch(error => console.error('Error:', error));
 }
 
+/**
+ * 
+ */
 document.getElementById('godot').addEventListener('click', function() {
     fetchData('http://localhost:13597/run/Godot Engine');
 });
