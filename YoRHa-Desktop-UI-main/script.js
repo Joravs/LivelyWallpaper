@@ -29,6 +29,7 @@ document.getElementById('godot').addEventListener('click', function() {
 
 document.getElementById('blender').addEventListener('click', function() {
     fetchData('http://localhost:13597/run/Blender');
+    document.write('<p>Godot Engine has been launched.</p>');
 });
 
 document.getElementById('defold').addEventListener('click', function() {
