@@ -1,41 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- 
-.                                          GLORY TO MANKIND                                                  
-.              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣤⡀
-. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⡆
-.  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿
-.   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⡿
-.    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⣿⣿⣿⡛⠛⠁
-.     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣴⣾⣿⣿⣿⣷⣶⣴⣶⣄
-.      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆
-.       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇
-.        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠙⢻⣿⣿⣧⣤
-.    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢠⣾⣿⣿⣿⣿⣷⡦
-.     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⢿⣿⣿⣿⣿⣿⣿⡦
-.     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣔⣿⡿⢿⢿⣿⡏⠉
-.         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⠀⠈⠁
-.          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⡀
-.            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢶⣄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀
-.            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-.            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⠿⠋⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋
-.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⣿⠿⠛⠉⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⠁⠈⣿⣿⣿⣿⣿⡿⠟⠁
-. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣴⣾⡿⠛⠉⠀⠀⠀⠀⠀⠀⠈⠙⢻⣿⣿⣿⣿⠟⠀⠀⠀⣿⣿⣿⣿⡇
-.  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣶⡿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡏⠀⠀⠀⠀⠀⢻⣿⣿⣿⣧
-.   ⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣶⣶⡿⠿⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⡄
-.    ⢀⣤⣤⣴⣶⣶⣿⠿⠿⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣿⡄
-.     ⠀⠈⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣷⡀
-.                                 ⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⡇
-.       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⡇
-.        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⡇
-.         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡄
-.                      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣹⣿⡇
-.           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣇
-.            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿
-.             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠇⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⡿⠆
-.              -->
-
-
 <head>
   <meta charset="UTF-8">
   <title>YoRHa UI</title>
@@ -95,24 +59,51 @@
   </header>
 
   <main>
-    <script>
-      function resizeIframe(obj) {
-        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-      }
-    </script>
-        <iframe src="./launchers.html"></iframe>
+    <div class="container">
+      <div class="content" style="float: left; display: inline;">
+        <p>
+          Launchers
+        </p>
+          <button id="godot" class="hoverButton" type="button">Godot</button>
+          <button id="upbge" class="hoverButton" type="button">UPBGE</button>
+          <button id="blender" class="hoverButton" type="button">Blender</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+      </div>
+      <div class="content" style="float: right; display: inline;">
+        <p style="text-align: right;">
+          Apps
+        </p>
+          <button id="godot" class="hoverButton" type="button">Godot</button>
+          <button id="godot" class="hoverButton" type="button">Godot</button>
+          <button id="upbge" class="hoverButton" type="button">UPBGE</button>
+          <button id="blender" class="hoverButton" type="button">Blender</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <!-- <div class="pattern">
-      <div class="container">
-        <div class="pattern-inner"></div>
-      </div>
-    </div> -->
-    <iframe class="iframe" src="./games.html" onload="resizeIframe(this)"></iframe>
-    
+    <div class="content">
+      <p style="text-align: center;">
+        Games
+      </p>
+      <button id="itch" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/itch.png" width="200px"></button>
+      <button id="steam" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/steam.png" width="200px"></button>
+      <button id="epic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic1.png" width="200px"></button>
+      <button id="gog" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/gog.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+    </div>
   </footer>
-  <!-- partial -->
 
 </body>
 <audio id="hoverSound" src="./bgm/core_16.wav"></audio>
