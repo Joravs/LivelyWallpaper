@@ -24,7 +24,7 @@ function fetchData(url) {
  * Launchers buttons click
  */
 document.getElementById('godot').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Godot Engine');
+    fetchData('http://localhost:13597/run/Godot');
 });
 
 document.getElementById('blender').addEventListener('click', function() {
