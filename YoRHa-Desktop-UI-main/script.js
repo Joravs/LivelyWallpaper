@@ -23,8 +23,50 @@ function fetchData(url) {
 /**
  * Launchers buttons click
  */
+<<<<<<< HEAD
 document.getElementById('steam').addEventListener('click', function() {
     fetchData('http://localhost:13597/run/S');
+=======
+document.getElementById('godot').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/Godot');
+});
+
+document.getElementById('blender').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/Blender');
+    document.write('<p>Godot Engine has been launched.</p>');
+});
+
+document.getElementById('defold').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/Defold');
+});
+
+document.getElementById('flax').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/Flax');
+});
+
+document.getElementById('ctjs').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/ctjs');
+});
+
+document.getElementById('turbowarp').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/TurboWarp');
+});
+
+document.getElementById('unigine').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/Unigine SDK browser 2');
+});
+
+document.getElementById('unity').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/Unity Hub');
+});
+
+document.getElementById('unreal').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/Unreal Engine');
+});
+
+document.getElementById('upbge').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/UPBGE');
+>>>>>>> 883b21f985c074bc66c9ebaed42d41ce3b714d1c
 });
 
 /**

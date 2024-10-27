@@ -1,48 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- 
-.                                          GLORY TO MANKIND                                                  
-.              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣤⡀
-. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⡆
-.  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿
-.   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⡿
-.    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⣿⣿⣿⡛⠛⠁
-.     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣴⣾⣿⣿⣿⣷⣶⣴⣶⣄
-.      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆
-.       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇
-.        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠙⢻⣿⣿⣧⣤
-.    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢠⣾⣿⣿⣿⣿⣷⡦
-.     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⢿⣿⣿⣿⣿⣿⣿⡦
-.     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣔⣿⡿⢿⢿⣿⡏⠉
-.         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⠀⠈⠁
-.          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⡀
-.            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢶⣄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀
-.            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-.            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⠿⠋⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋
-.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⣿⠿⠛⠉⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⠁⠈⣿⣿⣿⣿⣿⡿⠟⠁
-. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣴⣾⡿⠛⠉⠀⠀⠀⠀⠀⠀⠈⠙⢻⣿⣿⣿⣿⠟⠀⠀⠀⣿⣿⣿⣿⡇
-.  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣶⡿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡏⠀⠀⠀⠀⠀⢻⣿⣿⣿⣧
-.   ⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣶⣶⡿⠿⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⡄
-.    ⢀⣤⣤⣴⣶⣶⣿⠿⠿⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣿⡄
-.     ⠀⠈⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣷⡀
-.                                 ⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⡇
-.       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⡇
-.        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⡇
-.         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡄
-.                      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣹⣿⡇
-.           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣇
-.            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿
-.             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠇⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⡿⠆
-.              -->
-
-
 <head>
   <meta charset="UTF-8">
-  <title>YoRHa UI</title>
+  <title>Self Wallpaper</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto+Sans'>
   <link rel="stylesheet" href="./style.css">
+<<<<<<< HEAD
   <link rel="stylesheet" href="./css.css">
 
+=======
+>>>>>>> 883b21f985c074bc66c9ebaed42d41ce3b714d1c
 </head>
 
 <body>
@@ -99,6 +66,7 @@
     <div class="container">
       <div class="content" style="float: left; display: inline;">
         <p>
+<<<<<<< HEAD
           Launchers Gamings
         </p>
           <button id="steam" class="hoverButton" type="button">Steam</button>
@@ -118,6 +86,29 @@
           <button id="obs" class="hoverButton" type="button">OBS</button>
       </div>
   </div>
+=======
+          Launchers
+        </p>
+          <button id="godot" class="hoverButton" type="button">Godot</button>
+          <button id="upbge" class="hoverButton" type="button">UPBGE</button>
+          <button id="blender" class="hoverButton" type="button">Blender</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+      </div>
+      <div class="content" style="float: right; display: inline;">
+        <p style="text-align: right;">
+          Apps
+        </p>
+          <button id="godot" class="hoverButton" type="button">Godot</button>
+          <button id="godot" class="hoverButton" type="button">Godot</button>
+          <button id="upbge" class="hoverButton" type="button">UPBGE</button>
+          <button id="blender" class="hoverButton" type="button">Blender</button>
+          <button id="unigine" class="hoverButton" type="button">Unigine</button>
+      </div>
+    </div>
+>>>>>>> 883b21f985c074bc66c9ebaed42d41ce3b714d1c
   </main>
 
   <footer>
@@ -125,6 +116,7 @@
       <p style="text-align: center;">
         Games
       </p>
+<<<<<<< HEAD
       <button id="a" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/logo-ark.png"></button>
       <button id="al" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/logo-aimlabs.png"></button>
       <button id="au" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
@@ -153,11 +145,30 @@
       <button id="xd" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
     </div>
   </div>
+=======
+      <button id="itch" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/itch.png" width="200px"></button>
+      <button id="steam" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/steam.png" width="200px"></button>
+      <button id="epic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic1.png" width="200px"></button>
+      <button id="gog" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/gog.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+      <button id="heroic" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./images/epic2.png" width="200px"></button>
+    </div>
+>>>>>>> 883b21f985c074bc66c9ebaed42d41ce3b714d1c
   </footer>
-  <!-- partial -->
 
 </body>
+<<<<<<< HEAD
 <audio id="hoverSound" src="./bgm/core_16.wav"></audio> 
 <script src="script.js"></script>
 <script src="server/server.js"></script>
+=======
+<audio id="hoverSound" src="./bgm/core_16.wav"></audio>
+<script src="script.js"></script>
+>>>>>>> 883b21f985c074bc66c9ebaed42d41ce3b714d1c
 </html>
