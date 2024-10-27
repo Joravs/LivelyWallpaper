@@ -11,9 +11,8 @@ button {
     cursor: pointer;
     font: inherit;
     border: none;
+    background-color: transparent;
     padding: 0.4rem 1rem;
-    background-color: rgba(77, 73, 62, 0.35);
-    color: #4D493E;
     box-sizing: content;
     position: relative;
     border: 1px solid transparent;
@@ -48,17 +47,14 @@ button {
   }
   button:hover::before, button:focus::before {
     width: 100%;
-  }
-  .content {
-    padding-right: 2rem;
-    padding-left: 2rem;
-    /* background-image: linear-gradient(90deg, rgba(77, 73, 62, 0.2), rgba(77, 73, 62, 0.2) 14px, transparent 14px, transparent 20px, rgba(77, 73, 62, 0.2) 20px, rgba(77, 73, 62, 0.2) 23px, transparent 23px); */
-    margin-bottom: 2rem;
-  }
+}
+.content {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
   
-  img {
-    max-width: 150px;
-    max-height: 150px;
-    aspect-ratio: 16/9;
-    box-shadow: 3px 3px 0 rgba(77, 73, 62, 0.6);
-  }
+img {
+  max-height: 40px;
+  aspect-ratio: 1/1;
+}

@@ -8,9 +8,8 @@ const port = 13597;
 
 app.get('/run/:program', (req, res) => {
   const programName = req.params.program;
-  const lnkPath = path.join('C:\Users\jordy\Documents\shortcuts', `${programName}.lnk`);
-  const urlPath = path.join('C:\Users\jordy\Documents\shortcuts', `${programName}.url`);
-
+  const lnkPath = path.join('C:/Users/jordy/Documents/shortcuts/', `${programName}.lnk`);
+  const urlPath = path.join('C:/Users/jordy/Documents/shortcuts/', `${programName}.url`);
   const startProgram = (filePath) => {
     const child = spawn('cmd', ['/c', filePath], {
       detached: true,

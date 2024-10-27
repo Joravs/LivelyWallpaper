@@ -23,65 +23,14 @@ function fetchData(url) {
 /**
  * Launchers buttons click
  */
-document.getElementById('godot').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Godot Engine');
-});
-
-document.getElementById('blender').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Blender');
-});
-
-document.getElementById('defold').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Defold');
-});
-
-document.getElementById('flax').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Flax');
-});
-
-document.getElementById('ctjs').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/ctjs');
-});
-
-document.getElementById('turbowarp').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/TurboWarp');
-});
-
-document.getElementById('unigine').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Unigine SDK browser 2');
-});
-
-document.getElementById('unity').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Unity Hub');
-});
-
-document.getElementById('unreal').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Unreal Engine');
-});
-
-document.getElementById('upbge').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/UPBGE');
+document.getElementById('steam').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/S');
 });
 
 /**
  * Games buttons click
  */
-document.getElementById('itch').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/itch');
-});
 
-document.getElementById('steam').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/S');
-});
-
-document.getElementById('epic').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Epic');
-});
-
-document.getElementById('gog').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/GOG');
-});
-
-document.getElementById('heroic').addEventListener('click', function() {
-    fetchData('http://localhost:13597/run/Heroic');
+document.getElementById('a').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/a');
 });

@@ -41,6 +41,7 @@
   <title>YoRHa UI</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto+Sans'>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css.css">
 
 </head>
 
@@ -95,26 +96,68 @@
   </header>
 
   <main>
-    <script>
-      function resizeIframe(obj) {
-        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-      }
-    </script>
-        <iframe src="./launchers.html"></iframe>
+    <div class="container">
+      <div class="content" style="float: left; display: inline;">
+        <p>
+          Launchers Gamings
+        </p>
+          <button id="steam" class="hoverButton" type="button">Steam</button>
+          <button id="egl" class="hoverButton" type="button">Epic Games</button>
+          <button id="netm" class="hoverButton" type="button">NetMarble</button>
+          <button id="rc" class="hoverButton" type="button">Riot Client</button>
+          <button id="rgl" class="hoverButton" type="button">Rockstar Games</button>
+          <button id="uc" class="hoverButton" type="button">Ubisoft</button>
+      </div>
+      <div class="content" style="float: right; display: inline;">
+        <p style="text-align: right;">
+          Launchers Apps
+        </p>
+          <button id="asm" class="hoverButton" type="button">Ark Server Manager</button>
+          <button id="mve" class="hoverButton" type="button">Movie Editor</button>
+          <button id="suyu" class="hoverButton" type="button">Suyu</button>
+          <button id="obs" class="hoverButton" type="button">OBS</button>
+      </div>
+  </div>
   </main>
 
   <footer>
-    <!-- <div class="pattern">
-      <div class="container">
-        <div class="pattern-inner"></div>
-      </div>
-    </div> -->
-    <iframe class="iframe" src="./games.html" onload="resizeIframe(this)"></iframe>
-    
+    <div class="content">
+      <p style="text-align: center;">
+        Games
+      </p>
+      <button id="a" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/logo-ark.png"></button>
+      <button id="al" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/logo-aimlabs.png"></button>
+      <button id="au" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="b3d" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="bbt" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="cs2" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="dbd" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="f" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="fg" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="gg" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="gi" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="gtav" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="lol" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="m" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="ñ" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="o" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="oac" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="oh" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="p" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="ph" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="ppc" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="rs" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="re2" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="sla" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="v" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+      <button id="xd" class="hoverButton" type="button" style="margin-bottom: 6px;"><img src="./shortcuts/logo/"></button>
+    </div>
+  </div>
   </footer>
   <!-- partial -->
 
 </body>
-<audio id="hoverSound" src="./bgm/core_16.wav"></audio>
-<!-- <script src="script.js"></script> -->
+<audio id="hoverSound" src="./bgm/core_16.wav"></audio> 
+<script src="script.js"></script>
+<script src="server/server.js"></script>
 </html>
