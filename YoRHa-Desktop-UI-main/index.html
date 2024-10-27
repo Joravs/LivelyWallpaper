@@ -5,6 +5,7 @@
   <title>Self Wallpaper</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto+Sans'>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./audio.css">
 </head>
 
 <body>
@@ -81,9 +82,22 @@
       </div>
   </div>
   </main>
+  <div class="audiovs">
+    <canvas id="starfield"></canvas>
 
+    <div id="visualizer">
+        <img id="middle" />
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <pre id="debug"></pre>
+
+    <script src="audiovs/noise.js"></script>
+    <script src="audiovs/main.js"></script>
+    <script src="audiovs/stars.js"></script>
+  </div>
   <footer>
-    <div class="content">
+    <div class="contentfoot">
       <p style="text-align: center;">
         Games
       </p>

@@ -4,7 +4,7 @@
 }
 body {
   width: 100%;
-  background-image: url(./images/tP5iLDT.jpg);
+  background-image: url(./background/tP5iLDT.jpg);
   color: #4D493E;
   font-family: "Noto Sans", sans-serif;
   font-weight: 300;
@@ -12,15 +12,10 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-areas: 
-    "header main main main"
-    ". . . ."
-    ". . . ."
-    ". . . ."
-    ". . . ."
-    ". . . ."
-    ". . . ."
-    ". . . ."
-    "footer footer footer footer"
+    "header main main main main"
+    ". . audiovs . ."
+    ". . . . ."
+    "footer footer footer footer footer"
     ;
   min-height: 100vh;
   flex-direction: column;
@@ -111,11 +106,20 @@ button:hover::before, button:focus::before {
 .content {
   padding-right: 2rem;
   padding-left: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.contentfoot {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-top: 9rem;
 }
 
 button img {
   max-width: 50px;
   max-height: 50px;
   aspect-ratio: 1/1;
+}
+
+.audiovs {
+  grid-area: audiovs;
 }
