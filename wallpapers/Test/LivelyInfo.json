@@ -1,8 +1,8 @@
 {
   "AppVersion": "1.5.0.0",
   "Title": "Custome Wallpaper",
-  "Thumbnail": "ale2xhvr.jpg",
-  "Preview": "0vqxwkfz.gif",
+  "Thumbnail": "preview.png",
+  "Preview": "preview.mkv",
   "Desc": "A custome wallpaper with audio bars and buttons when clicked exec a app",
   "Author": "Joravs",
   "License": null,
