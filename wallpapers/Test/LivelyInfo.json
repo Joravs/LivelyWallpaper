@@ -1,8 +1,8 @@
 {
   "AppVersion": "1.5.0.0",
   "Title": "Custome Wallpaper",
-  "Thumbnail": "ohrq30vm.jpg",
-  "Preview": "tsen1ovl.gif",
+  "Thumbnail": "previewimg.jpg",
+  "Preview": "preview.gif",
   "Desc": "A custome wallpaper with audio bars and buttons when clicked exec a app",
   "Author": "Joravss",
   "License": null,
