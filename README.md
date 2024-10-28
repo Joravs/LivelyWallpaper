@@ -1,2 +1,2 @@
-![preview](https://github.com/Joravs/LivelyWallpaper/blob/master/wallpapers/Test/previews/preview.png)
-![preview](https://github.com/Joravs/LivelyWallpaper/blob/master/wallpapers/Test/previews/preview.mp4)
+![preview](https://github.com/Joravs/LivelyWallpaper/blob/master/wallpapers/Test/preview.png)
+![preview](https://github.com/Joravs/LivelyWallpaper/blob/master/wallpapers/Test/preview.mp4)
