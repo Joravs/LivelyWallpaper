@@ -10,10 +10,10 @@
   },
   "middleImage": {
     "type": "folderDropdown",
-    "value": "tn.svg",
+
     "text": "Center image",
-    "filter": "*.jpg|*.jpeg|*.png|*.webp|*.gif|*.svg",
-    "folder": "imgcenter"
+    "filter": "*.jpg|*.jpeg|*.png|*.webp|*.gif|*.svg"
+
   },
   "middleImageScale": {
     "max": 105,
