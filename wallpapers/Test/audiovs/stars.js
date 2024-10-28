@@ -27,7 +27,7 @@ function init() {
   starfield.width = w
   starfield.height = h
   context = starfield.getContext("2d")
-  context.lineCap = "round"
+  context.lineCap = "butt"
   // context.filter = "blur(1px)"
 }
 
