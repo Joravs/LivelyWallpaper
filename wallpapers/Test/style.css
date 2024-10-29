@@ -114,20 +114,18 @@ button:hover::before, button:focus::before {
   padding-left: 2rem;
   margin-top: 2rem;
 }
-.contentfoot {
-  padding-right: 2rem;
-  padding-left: 2rem;
-  margin-top: 25rem;
-  display: inline-flexbox;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
+
 .contentfoot .hoverButton{
   display: none;
 }
 .contentfoot .hvrBtn{
   display: flex;
   justify-content: center;
+}
+.contentfoot .hvrBtn:hover{
+  display: inline-flexbox;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .contentfoot .hvrBtn:hover .hoverButton{
   display: inline-flexbox;
