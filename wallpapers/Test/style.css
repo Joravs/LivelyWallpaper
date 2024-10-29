@@ -123,9 +123,8 @@ button:hover::before, button:focus::before {
   padding-left: 50%;
 }
 .contentfoot{
-  display: flex;
+  display: inline-flexbox;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
   justify-content: space-evenly;
   margin-bottom: 0%;
 }
