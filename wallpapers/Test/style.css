@@ -123,12 +123,12 @@ button:hover::before, button:focus::before {
   justify-content: center;
 }
 .contentfoot .hvrBtn:hover{
-  display: inline-flexbox;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: inline;
+  
 }
 .contentfoot .hvrBtn:hover .hoverButton{
-  display: inline-flexbox;
+  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-right: 2rem;
