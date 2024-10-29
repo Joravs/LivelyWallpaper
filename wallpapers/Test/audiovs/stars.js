@@ -67,6 +67,11 @@ function anim() {
   }
 }
 
+function rotateMiddle() {
+  
+}
+
 init()
 setInterval(anim, 16)
+setInterval(rotateMiddle,1)
 // anim()
