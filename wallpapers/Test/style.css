@@ -66,6 +66,8 @@ footer{
   grid-area: footer;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 1rem;
 }
 
 button {
@@ -121,8 +123,6 @@ button:hover::before, button:focus::before {
 }
 .contentfoot p{
   display: inline;
-  padding-right: 50%;
-  padding-left: 50%;
 }
 .contentfoot:hover{
   display: inline-flexbox;
