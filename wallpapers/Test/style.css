@@ -22,8 +22,6 @@ body {
     ". ."
     "footer footer"
     ;
-  min-height: 100vh;
-  flex-direction: column;
   letter-spacing: 0.1rem;
   overflow: hidden;
 }
