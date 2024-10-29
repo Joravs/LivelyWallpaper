@@ -130,6 +130,10 @@ button:hover::before, button:focus::before {
   margin: 0rem 2rem;
   bottom: 0%;
 }
+.contentfoot:hover p{
+  padding-left: 50%;
+  padding-right: 50%;
+}
 .contentfoot:hover .hoverButton{
   display: inline;
   margin: 0rem 0.7rem;
