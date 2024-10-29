@@ -126,9 +126,9 @@ button:hover::before, button:focus::before {
   display: inline-flexbox;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 20rem;
   margin-bottom: 0%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0rem 1rem 0rem 1rem;
 }
 .contentfoot .hvrBtn:hover .hoverButton{
   display: inline;
