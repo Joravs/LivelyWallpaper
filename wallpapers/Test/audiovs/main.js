@@ -1,6 +1,6 @@
 let innerPercent = 50
-let innerRadius = 270
-let barPercent = 10
+let innerRadius = 200
+let barPercent = 15
 let maxLength = 1080 / 2 - innerRadius
 let barWidth = 75
 let startHue = 0
