@@ -137,5 +137,5 @@ button:hover::before, button:focus::before {
 }
 button img {
   aspect-ratio: 1/1;
-  max-width: 40px;
+  max-width: 50px;
 }
