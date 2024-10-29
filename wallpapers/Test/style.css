@@ -127,7 +127,6 @@ button:hover::before, button:focus::before {
   flex-wrap: wrap;
   flex-direction: row-reverse;
   justify-content: space-evenly;
-  margin-top: 20rem;
   margin-bottom: 0%;
 }
 .contentfoot:hover .hoverButton{
