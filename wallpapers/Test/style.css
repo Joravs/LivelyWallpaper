@@ -118,7 +118,7 @@ button:hover::before, button:focus::before {
 .contentfoot .hoverButton{
   display: none;
 }
-.contentfoot .hvrBtn{
+.contentfoot .hvrBtn p{
   display: block;
   padding-left: 50%;
 }
@@ -126,7 +126,7 @@ button:hover::before, button:focus::before {
   display: inline-flexbox;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-left: 0%;
+  padding-left: 1rem;
   padding-bottom: 100px;
 }
 .contentfoot .hvrBtn:hover .hoverButton{
