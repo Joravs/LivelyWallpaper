@@ -109,7 +109,7 @@ function livelyAudioListener(audioArray) {
 
 function livelyCurrentTrack(data) {
   let obj = JSON.parse(data);
-  let defaultAlbumArt = "../imgcenter/no_signal.webm";
+  let defaultAlbumArt = "../imgcenter/tn.svg";
   //when no track is playing its null
   if (obj != null) {
       if (obj.Thumbnail != null) {
