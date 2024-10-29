@@ -125,17 +125,16 @@ button:hover::before, button:focus::before {
 .contentfoot .hoverButton{
   display: none;
 }
-.contentfoot span{
-  display: block;
+.contentfoot .hvrBtn{
+  display: flex;
   justify-content: center;
 }
-.contentfoot span:hover .hoverButton{
-  display: block;
-  padding-right: 2rem;
-  padding-left: 2rem;
+.contentfoot .hvrBtn:hover .hoverButton{
   display: inline-flexbox;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 button img {
