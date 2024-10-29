@@ -129,7 +129,7 @@ button:hover::before, button:focus::before {
   padding-right: 51.65%;
 }
 .contentfoot .hoverButton{
-  display: flex;
+  display: inline;
   margin: 0rem 0.7rem;
   padding: 0;
 }
