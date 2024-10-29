@@ -145,8 +145,8 @@ button img {
   inset:0;
   margin: auto;
   position: absolute;
-  top: 50%;
-  left: 65%;
+  top: 68.6%;
+  left: 64%;
   transform: translate(-50%, -50%);
 }
 .ifr input[type="text"]{
@@ -161,4 +161,7 @@ button img {
   text-align: center;
   color: rgba(245, 227, 255, 0.993);
   font-family: "Noto Sans", sans-serif;
+}
+.ifr .hoverButton{
+  
 }
