@@ -125,15 +125,17 @@ button:hover::before, button:focus::before {
   display: inline-flexbox;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 0rem 2rem auto;
 }
 .contentfoot .hoverButton{
   display: inline;
-  margin: 0rem 0.4rem 0rem 0.4rem;
+  margin: 0;
   padding: 0;
 }
 button img {
   max-width: 50px;
   max-height: 50px;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 0;
   aspect-ratio: 1/1;
 }
