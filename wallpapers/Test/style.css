@@ -162,7 +162,7 @@ button img {
   color: rgba(245, 227, 255, 0.993);
   font-family: "Noto Sans", sans-serif;
 }
-.ifr input::placeholder:hover{
+.ifr input:focus::placeholder{
   color: transparent; 
 }
 .ifr .hoverButton{
