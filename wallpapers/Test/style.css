@@ -116,22 +116,20 @@ button:hover::before, button:focus::before {
 }
 
 .contentfoot .hoverButton{
-  display: none;
+  /*display: none;*/
 }
 .contentfoot p{
   display: block;
   padding-left: 50%;
 }
-.contentfoot:hover{
-  display: flexbox;
+.contentfoot{
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
   justify-content: space-evenly;
   margin-bottom: 0%;
 }
-.contentfoot:hover .hoverButton{
-  display: inline;
-}
+
 
 button img {
   max-width: 50px;
