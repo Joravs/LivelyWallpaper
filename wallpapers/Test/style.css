@@ -123,6 +123,7 @@ button:hover::before, button:focus::before {
 .contentfoot{
   display: inline;
   padding: 0.5rem 2rem 0rem;
+  overflow-y: auto;
 }
 .contentfoot p{
   padding-left: 48.35%;
