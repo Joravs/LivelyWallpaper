@@ -77,11 +77,6 @@ function livelyAudioListener(audioArray) {
     shadowOpacity / 100
   }))`
 
-  /////
-  for (let i = 1; i <=36; i++) {
-    middle.style.transform = "rotate("+i*10+"deg)";
-  }
-
   if (audio.length > 2) {
     // Draw each bar
     audio.map((val, index, arr) => {
