@@ -122,8 +122,7 @@ button:hover::before, button:focus::before {
   display: inline;
 }
 .contentfoot{
-  display: inline-flexbox;
-  flex-wrap: wrap;
+  display: inline;
   padding: 0.5rem 2rem 0rem;
 }
 .contentfoot p{
