@@ -145,8 +145,7 @@ button img {
 input[type="text"]{
   display: block;
   padding: 0.3rem;
-  margin-bottom: 1rem;
   border: none;
-  border-bottom: 1px solid #C8C2AA;
+  border-radius: 10px;
   outline: none;
 }
