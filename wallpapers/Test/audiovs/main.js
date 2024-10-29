@@ -121,9 +121,6 @@ function livelyCurrentTrack(data) {
     } else {
       middle.src = defaultAlbumArt;
     }
-    for (let i = 0; i <36 ; i++) {
-      obj.Thumbnail.style.transform = `rotate(${i*10}deg)`;
-    }
 }
 
 function livelyPropertyListener(name, val) {
