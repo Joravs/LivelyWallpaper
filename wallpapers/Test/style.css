@@ -119,12 +119,11 @@ button:hover::before, button:focus::before {
   display: none;
 }
 .contentfoot .hvrBtn{
-  display: flex;
+  display: block;
   justify-content: center;
 }
 .contentfoot .hvrBtn:hover{
   display: inline;
-  margin-top: 20rem;
 }
 .contentfoot .hvrBtn:hover .hoverButton{
   display: flex;
