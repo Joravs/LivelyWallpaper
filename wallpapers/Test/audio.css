@@ -27,7 +27,10 @@
     transform: translate(-50%, -50%);
     animation: girar 2s infinite linear;
 }
-
+@keyframes girar{
+    from {transform: rotate(0deg);}
+    to{transform: rotate(360deg)}
+}
 #debug {
     position: absolute;
     top: 0;top: 50%;
