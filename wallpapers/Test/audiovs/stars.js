@@ -73,5 +73,5 @@ function rotateMiddle() {
 
 init()
 setInterval(anim, 16)
-setInterval(rotateMiddle,50)
+setInterval(rotateMiddle,500)
 // anim()
