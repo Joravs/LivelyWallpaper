@@ -63,6 +63,7 @@ footer{
   grid-area: footer;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   padding-bottom: 2rem;
 }
 
@@ -120,23 +121,21 @@ button:hover::before, button:focus::before {
 .contentfoot p{
   display: inline;
 }
+.contentfoot:hover{
+  display: inline-flexbox;
+  flex-wrap: wrap;
+  padding: 0.5rem 2rem 0rem;
+}
 .contentfoot:hover p{
   padding-left: 48.35%;
   padding-right: 51.65%;
 }
-.contentfoot:hover .buttons{
-  display: flex;
-  width: 50rem;
-  height: 5rem;
-  overflow-x: auto;
-}
-.contentfoot:hover .buttons .hoverButton{
+.contentfoot:hover .hoverButton{
   display: inline;
   margin: 0rem 0.7rem;
   padding: 0;
-} 
+}
 button img {
-  max-width: 50px;
-  max-height: 50px;
   aspect-ratio: 1/1;
+  max-width: 40px;
 }
