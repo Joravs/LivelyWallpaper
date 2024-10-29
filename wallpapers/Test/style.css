@@ -120,7 +120,7 @@ button:hover::before, button:focus::before {
 }
 .contentfoot .hvrBtn{
   display: block;
-  justify-content: center;
+  padding-left: 50%;
 }
 .contentfoot .hvrBtn:hover{
   display: inline;
