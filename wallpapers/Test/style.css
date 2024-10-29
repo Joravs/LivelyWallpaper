@@ -121,13 +121,12 @@ button:hover::before, button:focus::before {
   display: block;
   padding-left: 50%;
 }
-.contentfoot{
+.contentfoot:hover{
   display: inline-flexbox;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   margin: 0rem 2rem;
 }
-.contentfoot .hoverButton{
+.contentfoot:hover .hoverButton{
   display: inline;
   margin: 0rem 0.7rem;
   padding: 0;
