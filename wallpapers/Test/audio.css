@@ -22,10 +22,10 @@
     object-fit: cover;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: girar 2s infinite linear;
+    animation: girar 50s infinite linear;
 }
 @keyframes girar{
     from {transform: rotate(0deg);}
