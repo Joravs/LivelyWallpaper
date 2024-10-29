@@ -67,12 +67,6 @@ function anim() {
   }
 }
 
-function rotateMiddle() {
-  let rotate = document.getElementById('middle');
-  rotate.style.transform = 'rotate(' + -45 + 'deg)';
-}
-
 init()
 setInterval(anim, 16)
-setInterval(rotateMiddle,1000)
 // anim()
