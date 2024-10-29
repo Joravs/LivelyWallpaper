@@ -110,7 +110,7 @@ button:hover::before, button:focus::before {
   width: 100%;
 }
 .content {
-  padding-left: 2rem;
+  padding: 0rem 2rem auto;
   margin-top: 2rem;
 }
 
