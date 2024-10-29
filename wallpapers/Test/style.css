@@ -154,6 +154,6 @@ button img {
   outline: none;
 }
 .ifr form{
-  display: flexbox;
+  display: inline-flex;
   justify-content: center;
 }
