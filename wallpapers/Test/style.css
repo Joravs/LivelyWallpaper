@@ -131,6 +131,7 @@ button:hover::before, button:focus::before {
 }
 .contentfoot span:hover, .contentfoot .hoverButton{
   position: relative;
+  display: inline-flex;
 }
 
 button img {
