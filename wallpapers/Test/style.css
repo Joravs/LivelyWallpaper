@@ -126,7 +126,7 @@ button:hover::before, button:focus::before {
   display: none;
 }
 .contentfoot span{
-  display: flex;
+  display: block;
   justify-content: center;
 }
 .contentfoot span:hover .hoverButton{
