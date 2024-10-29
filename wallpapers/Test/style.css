@@ -128,7 +128,7 @@ button:hover::before, button:focus::before {
   margin-bottom: 0%;
 }
 .contentfoot .hoverButton{
-  
+  display: inline;
 }
 button img {
   max-width: 50px;
