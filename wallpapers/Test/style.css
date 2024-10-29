@@ -64,6 +64,7 @@ main {
 
 footer{
   grid-area: footer;
+  grid-template-areas: "con";
 }
 
 button {
@@ -115,6 +116,9 @@ button:hover::before, button:focus::before {
   margin-top: 2rem;
 }
 
+.contentfoot{
+  grid-area: con;
+}
 .contentfoot .hoverButton{
   display: none;
 }
