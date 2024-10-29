@@ -122,6 +122,9 @@ button:hover::before, button:focus::before {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.contentfoot button{
+  display: none;
+}
 
 button img {
   max-width: 50px;
