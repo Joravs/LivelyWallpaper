@@ -64,6 +64,8 @@ main {
 
 footer{
   grid-area: footer;
+  display: flex;
+  align-items: flex-end;
 }
 
 button {
