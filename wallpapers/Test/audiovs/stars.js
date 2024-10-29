@@ -68,7 +68,7 @@ function anim() {
 }
 
 function rotateMiddle() {
-  middle.style.transform = 'rotate(' + -20 + 'deg)';
+  middle.style.transform = 'rotate(' + -45 + 'deg)';
 }
 
 init()
