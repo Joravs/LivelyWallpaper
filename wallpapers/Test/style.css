@@ -126,6 +126,8 @@ button:hover::before, button:focus::before {
   display: flexbox;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  min-width: 0%;
+  max-width: 90%;
   margin-top: 20rem;
   margin-bottom: 0%;
   padding: 0rem 1rem 0rem 1rem;
