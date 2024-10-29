@@ -128,7 +128,7 @@ button:hover::before, button:focus::before {
   justify-content: space-evenly;
   margin-bottom: 0%;
   padding-left: 1rem;
-  padding-bottom: 20px;
+  padding-right: 1rem;
 }
 .contentfoot .hvrBtn:hover .hoverButton{
   display: inline;
