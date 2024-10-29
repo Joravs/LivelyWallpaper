@@ -145,8 +145,6 @@ button img {
   grid-area: ifr;
   inset:0;
   margin: auto;
-  display: flex;
-  justify-content: center;
 }
 .ifr input[type="text"]{
   display: block;
@@ -154,4 +152,8 @@ button img {
   border: none;
   border-radius: 10px;
   outline: none;
+}
+.ifr form{
+  display: flexbox;
+  justify-content: center;
 }
