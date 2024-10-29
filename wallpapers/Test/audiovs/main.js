@@ -118,7 +118,6 @@ function livelyCurrentTrack(data) {
         // backgroundImage.src = null;
       }
     } else {
-      document.querySelector("h1").innerText = "Waiting for media...";
       middle.src = defaultAlbumArt;
     }
 }
