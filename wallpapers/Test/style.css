@@ -124,7 +124,7 @@ button:hover::before, button:focus::before {
 }
 .contentfoot .hvrBtn:hover{
   display: inline;
-  
+  height: 100%;
 }
 .contentfoot .hvrBtn:hover .hoverButton{
   display: flex;
