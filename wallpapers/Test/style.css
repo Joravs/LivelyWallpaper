@@ -19,7 +19,7 @@ body {
   grid-template-columns: minmax(min-content,400px);
   grid-template-areas: 
     "header main"
-    "ifr ifr"
+    ". ."
     "footer footer"
     ;
   letter-spacing: 0.1rem;
@@ -142,13 +142,12 @@ button img {
   max-width: 40px;
 }
 .ifr{
-  grid-area: ifr;
   inset:0;
   margin: auto;
-}
-.ifr form{
-  display: inline-flexbox;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
 }
 .ifr input[type="text"]{
   background-color: #4D493E;
