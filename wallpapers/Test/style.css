@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   /* color: #4D493E; */
-  color: white;
+  color: rgba(245, 227, 255, 0.993);
   font-family: "Noto Sans", sans-serif;
   font-weight: 300;
   margin: 0;
@@ -67,7 +67,7 @@ footer{
 }
 
 button {
-  color: white;
+  color: rgba(245, 227, 255, 0.993);
   margin-top: 0.4rem;
   cursor: pointer;
   font: inherit;
