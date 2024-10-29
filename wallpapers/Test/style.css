@@ -17,10 +17,10 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-areas: 
-    "header main main main main"
-    ". . . . ."
-    ". . . . ."
-    "footer footer footer footer footer"
+    "header main main main main main"
+    ". . . . . ."
+    ". . . . . ."
+    "footer footer footer footer footer footer"
     ;
   min-height: 100vh;
   flex-direction: column;
@@ -35,7 +35,7 @@ body {
 header {
   padding: 1rem 0rem;
   grid-area: header;
-  max-width: 400px;
+  max-width: 390px;
 }
 
 h1 {
