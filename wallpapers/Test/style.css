@@ -19,7 +19,7 @@ body {
   grid-template-columns: minmax(min-content,400px);
   grid-template-areas: 
     "header main"
-    ". ."
+    "ifr ifr"
     "footer footer"
     ;
   letter-spacing: 0.1rem;
@@ -141,8 +141,11 @@ button img {
   aspect-ratio: 1/1;
   max-width: 40px;
 }
-
-input[type="text"]{
+.ifr{
+  grid-area: ifr;
+  margin: 0% 50%;
+}
+.ifr input[type="text"]{
   display: block;
   padding: 0.3rem;
   border: none;
