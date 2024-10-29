@@ -134,6 +134,8 @@ button:hover::before, button:focus::before {
   display: inline;
   margin: 0rem 0.7rem;
   padding: 0;
+  aspect-ratio: 1/1;
+  width: 80px;
 }
 button img {
   aspect-ratio: 1/1;
