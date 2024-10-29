@@ -125,8 +125,8 @@ button:hover::before, button:focus::before {
 .contentfoot .hvrBtn:hover{
   display: flexbox;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
   justify-content: space-evenly;
-  max-width: 90%;
   margin-top: 20rem;
   margin-bottom: 0%;
   padding: 0rem 1rem 0rem 1rem;
