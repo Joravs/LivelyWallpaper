@@ -141,7 +141,9 @@ button img {
   aspect-ratio: 1/1;
   max-width: 40px;
 }
-.ifr{
+
+/* Search button*/
+/* .ifr{
   inset:0;
   margin: auto;
   position: absolute;
@@ -167,4 +169,4 @@ button img {
 }
 .ifr .hoverButton{
   margin-left: 3rem;
-}
+} */
