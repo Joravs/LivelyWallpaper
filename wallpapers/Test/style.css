@@ -16,7 +16,7 @@ body {
   margin: 0;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(3,minmax(100%));
+  grid-template-columns: repeat(3,minmax(390px,390px));
   grid-template-areas: 
     "header main main"
     ". . ."
