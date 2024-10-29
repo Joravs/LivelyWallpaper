@@ -122,7 +122,7 @@ function livelyCurrentTrack(data) {
       middle.src = defaultAlbumArt;
     }
     for (let i = 0; i <36 ; i++) {
-      middle.style.transform = `rotate(${i*10}deg)`;
+      obj.Thumbnail.style.transform = `rotate(${i*10}deg)`;
     }
 }
 
