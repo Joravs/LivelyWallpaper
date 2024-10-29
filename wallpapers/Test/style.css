@@ -129,7 +129,7 @@ button:hover::before, button:focus::before {
   display: flex;
   justify-content: center;
 }
-.contentfoot span:hover, .contentfoot .hoverButton:hover{
+.contentfoot span:hover, .contentfoot .hoverButton{
   position: relative;
   display:block;
 }
