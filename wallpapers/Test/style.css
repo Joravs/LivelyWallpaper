@@ -163,10 +163,8 @@ button img {
   font-family: "Noto Sans", sans-serif;
 }
 .ifr input::placeholder:focus{
-  display: none;
-  text-align: center;
-  color: rgba(245, 227, 255, 0.993);
-  font-family: "Noto Sans", sans-serif;
+  color: transparent;
+  
 }
 .ifr .hoverButton{
   margin-left: 3rem;
