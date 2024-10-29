@@ -130,7 +130,6 @@ button:hover::before, button:focus::before {
   justify-content: center;
 }
 .contentfoot span:hover, .contentfoot .hoverBtn:hover .hoverButton{
-  position: relative;
   display:block;
 }
 
