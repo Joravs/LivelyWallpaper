@@ -64,7 +64,6 @@ main {
 
 footer{
   grid-area: footer;
-  grid-template-areas: "con con con con con";
 }
 
 button {
@@ -116,17 +115,14 @@ button:hover::before, button:focus::before {
   margin-top: 2rem;
 }
 
-.contentfoot{
-  grid-area: con;
-}
 .contentfoot .hoverButton{
   display: none;
 }
-.contentfoot .hvrBtn p{
+.contentfoot p{
   display: block;
   padding-left: 50%;
 }
-.contentfoot .hvrBtn:hover{
+.contentfoot:hover{
   display: flexbox;
   flex-wrap: wrap;
   flex-direction: row-reverse;
@@ -135,7 +131,7 @@ button:hover::before, button:focus::before {
   margin-bottom: 0%;
   padding: 0rem 1rem 0rem 1rem;
 }
-.contentfoot .hvrBtn:hover .hoverButton{
+.contentfoot:hover .hoverButton{
   display: inline;
 }
 
