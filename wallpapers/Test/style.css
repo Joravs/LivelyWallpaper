@@ -110,13 +110,12 @@ button:hover::before, button:focus::before {
   width: 100%;
 }
 .content {
-  padding-right: 2rem;
   padding-left: 2rem;
   margin-top: 2rem;
 }
 
 .contentfoot .hoverButton{
-  /*display: none;*/
+  display: none;
 }
 .contentfoot p{
   display: block;
@@ -128,8 +127,9 @@ button:hover::before, button:focus::before {
   justify-content: space-evenly;
   margin-bottom: 0%;
 }
-
-
+.contentfoot .hoverButton{
+  
+}
 button img {
   max-width: 50px;
   max-height: 50px;
