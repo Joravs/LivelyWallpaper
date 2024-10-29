@@ -119,10 +119,9 @@ button:hover::before, button:focus::before {
 }
 .contentfoot p{
   display: inline;
-  float: inline-end;
   padding-top: 2rem;
   padding-right: 45%;
-  padding-left: 45%;
+  padding-left: 50%;
 }
 .contentfoot:hover{
   display: inline-flexbox;
