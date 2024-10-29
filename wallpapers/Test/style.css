@@ -58,7 +58,7 @@ h1 small::before {
 }
 
 main {
-  flex: 1;
+  flex: 0;
   grid-area: main;
 }
 
@@ -133,8 +133,6 @@ button:hover::before, button:focus::before {
 }
 .contentfoot .hvrBtn:hover .hoverButton{
   display: inline;
-  padding-right: 2rem;
-  padding-left: 2rem;
 }
 
 button img {
