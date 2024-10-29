@@ -120,7 +120,7 @@ button:hover::before, button:focus::before {
   margin-top: 25rem;
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 button img {
