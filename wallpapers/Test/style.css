@@ -146,14 +146,20 @@ button img {
   inset:0;
   margin: auto;
 }
+.ifr form{
+  display: inline-flexbox;
+  justify-content: center;
+}
 .ifr input[type="text"]{
+  background-color: #4D493E;
   display: block;
   padding: 0.3rem;
   border: none;
   border-radius: 10px;
   outline: none;
 }
-.ifr form{
-  display: inline-flexbox;
-  justify-content: center;
+.ifr input::placeholder{
+  text-align: center;
+  color: rgba(245, 227, 255, 0.993);
+  font-family: "Noto Sans", sans-serif;
 }
