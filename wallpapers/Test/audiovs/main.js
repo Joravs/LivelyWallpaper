@@ -114,8 +114,8 @@ function livelyCurrentTrack(data) {
   if (obj != null) {
       if (obj.Thumbnail != null) {
         middle.src = "data:image/png;base64, "  + obj.Thumbnail;
-        for (let i = 0; i <360 ; i++) {
-          rotate.style.transform = `rotate(${i}deg)`;
+        for (let i = 0; i <36 ; i+=10) {
+          middle.style.transform = `rotate(${i}deg)`;
         }
       } else {
         middle.src = defaultAlbumArt;
