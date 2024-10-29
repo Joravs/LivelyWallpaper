@@ -34,7 +34,7 @@ body {
 header {
   padding: 1rem 0rem;
   grid-area: header;
-  grid-column: 1/1;
+  grid-column: 1/2;
 }
 
 h1 {
@@ -64,6 +64,7 @@ main {
 
 footer{
   grid-area: footer;
+  grid-column: 0/2;
   display: flex;
   align-items: flex-end;
   justify-content: center;
