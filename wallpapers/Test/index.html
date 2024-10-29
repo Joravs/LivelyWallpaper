@@ -94,6 +94,12 @@
     <canvas id="starfield"></canvas>
     <div id="visualizer">
         <img id="middle"/>
+        <script>
+          const rotate = document.getElementById("middle");
+          for (let i = 0; i <360 ; i++) {
+            rotate.style.transform = `rotate(${i}deg)`;
+          }
+        </script>
         <canvas id="canvas"></canvas>
     </div>
   
