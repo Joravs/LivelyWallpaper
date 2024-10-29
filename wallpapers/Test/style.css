@@ -118,6 +118,9 @@ button:hover::before, button:focus::before {
   padding-right: 2rem;
   padding-left: 2rem;
   margin-top: 25rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 button img {
