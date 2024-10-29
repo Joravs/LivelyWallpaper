@@ -129,6 +129,10 @@ button:hover::before, button:focus::before {
   display: flex;
   justify-content: center;
 }
+.contentfoot span:hover, .hoverButton{
+  display: flex;
+  justify-content: center;
+}
 
 button img {
   max-width: 50px;
