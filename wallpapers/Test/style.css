@@ -124,8 +124,8 @@ button:hover::before, button:focus::before {
   display: inline;
   padding: 0.5rem 2rem 0rem;
 }
-.buttons{
-  display: flex;
+.contentfoot .buttons .hoverButton{
+  display: inline-flex;
   width: 50rem;
   height: 5rem;
   overflow-x: auto;
@@ -134,11 +134,11 @@ button:hover::before, button:focus::before {
   padding-left: 48.35%;
   padding-right: 51.65%;
 }
-.contentfoot .hoverButton{
+/* .contentfoot .hoverButton{
   display: inline;
   margin: 0rem 0.7rem;
   padding: 0;
-}
+} */
 button img {
   max-width: 50px;
   max-height: 50px;
