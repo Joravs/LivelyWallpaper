@@ -17,4 +17,8 @@
             return "Elemento no encontrado";
         }
     }
+
+    $url = "https://www.example.com";
+    $selector = "//h1";
+    echo getElements($url, $selector);
 ?>
