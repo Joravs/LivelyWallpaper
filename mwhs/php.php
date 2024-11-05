@@ -18,7 +18,7 @@
         }
     }
 
-    $url = "https://www.example.com";
-    $selector = "//h1";
+    $url = "https://zonaolympus.com/series/comic-me-canse-de-ser-un-lame-culos-y-ahora-tengo-90-mil-millones-de-monedas-de-oro77723123125324";
+    $selector = "//.font-medium text-xl";
     echo getElements($url, $selector);
 ?>
