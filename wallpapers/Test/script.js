@@ -114,6 +114,10 @@ document.getElementById('gtav').addEventListener('click', function() {
     fetchData('http://localhost:13597/run/GTAV');
 });
 
+document.getElementById('hl').addEventListener('click', function() {
+    fetchData('http://localhost:13597/run/HL');
+});
+
 document.getElementById('lol').addEventListener('click', function() {
     fetchData('http://localhost:13597/run/LOL');
 });
