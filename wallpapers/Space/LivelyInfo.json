@@ -1,0 +1,17 @@
+{
+  "AppVersion": "1.5.0.0",
+  "Title": "Custome Wallpaper",
+  "Thumbnail": "previewimg.jpg",
+  "Preview": "preview.gif",
+  "Desc": "A custome wallpaper with audio bars and buttons when clicked exec a app",
+  "Author": "Joravss",
+  "License": null,
+  "Contact": "",
+  "Type": 2,
+  "FileName": "index.html",
+  "Arguments": "--system-nowplaying",
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": null,
+  "Version": 1
+}

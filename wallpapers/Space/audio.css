@@ -1,0 +1,39 @@
+#audiovs {
+    position: absolute;
+    z-index: -1;
+}
+#canvas,
+#starfield {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+
+#starfield {
+    position: fixed;
+    top: 10%;
+    z-index: -10;
+}
+
+#middle {
+    animation: girar 50s infinite linear;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+@keyframes girar{
+    from {transform: translate(-50%, -50%) rotate(0deg);}
+    to{transform: translate(-50%, -50%) rotate(360deg)}
+}
+#debug {
+    position: absolute;
+    top: 0;top: 50%;
+    left: 0;
+    word-break: break-all;
+    white-space: break-spaces;
+}
